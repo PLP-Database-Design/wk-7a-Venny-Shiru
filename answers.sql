@@ -27,7 +27,7 @@ OrderID INT PRIMARY KEY,
 customerName VARCHAR(100)
 );
 
-INSERT INTO orders (OrderID, CustomerName)
+INSERT INTO orders (OrderID, customerName)
 VALUES
 (101, 'John Doe'),
 (102, 'Jane Smith'),
